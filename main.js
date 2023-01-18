@@ -17,3 +17,11 @@ recognition.onresult = function(event)
 
     document.getElementById("textbox").innerHTML = Content;
 }
+
+Webcam.set
+({
+width:360,
+height:250,
+image_format:'png',
+});
+camera = document.getElementById("camera");
